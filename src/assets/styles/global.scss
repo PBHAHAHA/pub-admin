@@ -1,0 +1,25 @@
+$color: #eee;
+
+body {
+    background-color: $color;
+    user-select: none;
+}
+img {
+    -webkit-user-drag: none;
+}
+
+// 首页的布局样式
+.logo {  
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px;
+    background: #197b9c;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
