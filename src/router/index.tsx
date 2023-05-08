@@ -28,7 +28,11 @@ const routes = [
                 element: suspenseLoading(<About />)
             },
             {
-                path: '/user',
+                path: '/user/list',
+                element: suspenseLoading(<User />)
+            },
+            {
+                path: '/user/auth',
                 element: suspenseLoading(<User />)
             }
         ]
